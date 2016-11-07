@@ -1,0 +1,17 @@
+<resources>
+    <!--Name of the application -->
+    <string name="app_name">Popular Movies</string>
+    <!--Text for the menu settings-->
+    <string name="action_settings">Settings</string>
+    <!-- Text for the menu action "Sort by" to item-->
+    <string name="action_sort_by">Sort by</string>
+    <!-- Text for the menu action item sort by-->
+    <string name="action_sort_by_popularity">Most Popular</string>
+    <!-- Text for the menu action item sort by Highest Rated-->
+    <string name="action_sort_by_rating">Highest Rated</string>
+    <!-- field declaration for the content authority -->
+    <string name="content_authority">com.singh.pankaj.android.popularmovies</string>
+    <!-- api_key to access the database-->
+    <string name="api_key" >d9446b337b70a65c2452aaa9c805dc1a</string>
+
+</resources>
