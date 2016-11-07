@@ -12,6 +12,6 @@
     <!-- field declaration for the content authority -->
     <string name="content_authority">com.singh.pankaj.android.popularmovies</string>
     <!-- api_key to access the database-->
-    <string name="api_key" >d9446b337b70a65c2452aaa9c805dc1a</string>
+    <string name="api_key" >abc</string>
 
 </resources>
