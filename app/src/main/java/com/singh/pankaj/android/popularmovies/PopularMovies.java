@@ -15,22 +15,22 @@ public class PopularMovies extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_popular_movies);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.content_popular_movies,new PopularMoviesFragment())
+                    .add(R.id.fragment_movies,new PopularMoviesFragment())
                     .commit();
         }
-       FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+       //FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+       // fab.setOnClickListener(new View.OnClickListener() {
+       //     @Override
+        //    public void onClick(View view) {
+         //       Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+             //           .setAction("Action", null).show();
+          //  }
+       // });
     }
 
     @Override
